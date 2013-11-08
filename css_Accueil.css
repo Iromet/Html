@@ -1,0 +1,30 @@
+#HF
+{
+/*position:align;
+display:inline-block;*/
+/*a:link color:#F6F6F6;    unvisited link */
+a:visited color:#000000; /* visited link */
+/*a:hover color:#6F6F6F;    mouse over link */
+a:hovertext-decoration:none
+}
+
+#Profil
+{
+color:black;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+#logo, #Site, #Projets, #Accueil, #Competences, #Profil, #Deconnexion, #ZSearch, #Recherche, #Contact, #CDU
+{
+	display:inline-block;
+}
+
+Body
+{
+	background-color:#e2E2E2;
+}
+

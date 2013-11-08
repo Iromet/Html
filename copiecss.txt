@@ -1,0 +1,75 @@
+#Projets ul 
+{
+ /*float:left;
+ margin:auto;
+ padding:0;*/
+ background-color:#e2E2E2;
+ }
+ 
+ #Projets li 
+ {
+ /*float:left;
+ margin:auto;
+ padding:0;*/
+ background-color:black;
+ display:inline-block;
+ }
+ 
+ #Projets
+ {
+ display:inline-block;
+}
+ 
+ 
+#Projets li a 
+{
+ display:block;
+
+ color:red;
+ text-decoration:none;
+ padding:5px;
+ }
+
+ 
+#Projets li a:hover ul li
+{
+	color:#FFD700;
+	display:block;
+ }
+
+ #Projets label ul li
+ {
+ display:none;
+ }
+ 
+#Projets label:hover ul li 
+{
+ display:block;
+ }
+ 
+ #Projets label:hover ul li a
+ {
+ float:none;
+ }
+ 
+ #Projets ul li
+ {
+ position:absolute;
+ }
+ 
+ 
+ #Projets ul li 
+{
+	display:none;
+}
+
+#Projets label:hover ul li
+{
+	display:block;
+	height:20px;
+}
+
+#Projets li ul
+{
+	position:absolute;
+}

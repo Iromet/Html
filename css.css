@@ -1,0 +1,119 @@
+
+
+* {
+	font-family: 'Arial';
+}
+#corpus{
+	margin-left:15%;
+}
+#container {
+	width: 720px;
+	margin: auto;
+}
+#projet {
+	width: 40%;
+	margin-left:5%;
+}
+#flat_projet {
+	width: 100%;
+	background-color: #48b9c7;
+	padding: 3%;
+}
+.one_project {
+	text-align: center;
+	width: 50%;
+}
+.static_separateur {
+	color: white;
+	text-align: center;
+	width: 85%;
+	height: 1px;
+}
+.dynamic_separateur {
+	color: white;
+	width: 100%;
+}
+.flat_title {
+	text-align: center;
+	width: 100%;
+	font-weight: bold;
+}
+.progress {
+	width: 50%;
+	margin-left: 25%;
+}
+.title_projet {
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
+.chef_projet {
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
+#competences {
+	width: 40%;
+	margin-top:-5%;
+	margin-left:5%;
+}
+#notifications {
+	width: 100%;
+	background-color: #ef3125;
+	padding: 3%;
+}
+.notif_title {
+	font-weight: bold;
+}
+#notification {
+	width: 40%;
+	margin-left:55%;
+	margin-top:-15%;
+}
+#nouveau_projet {
+	width: 40%;
+	margin-left: 55%;
+	margin-top: -35%;
+}
+
+#one_projet{
+	background-color: #48b9c7;
+	padding: 3%;
+	text-align:center;
+	width:100%;
+}
+
+#nouveau_projet > p:last-child {
+	text-align: center;
+	width: auto;
+}
+#projets_potentiels {
+	width: 40%;
+	margin-left: 55%;
+	margin-top: 5%;
+}
+.notif_bloc {
+	width: auto;
+}
+.competence_bloc {
+	width: 100%;
+	background-color: #feb415;
+	padding: 3%;
+}
+.one_projet_potentiel {
+	width: 100%;
+	background-color: #feb415;
+	padding: 3%;
+}
+.CDP_name {
+	text-align: center;
+	width: 100%
+}
+.radio_skill {
+	text-align: right;
+	margin-top: -7%;
+}
+
+#flat_projet, .competence_bloc, #notifications, #one_projet, .one_projet_potentiel{
+	box-shadow: 0.5px 0.5px 2px;
+}

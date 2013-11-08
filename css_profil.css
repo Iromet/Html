@@ -1,0 +1,87 @@
+*{
+	/*border:1px solid red;*/
+	font-family: Arial, sans-serif;
+}
+
+#corps{
+	text-align:center;
+	}
+
+.info_perso{
+	padding:2px;
+	margin:auto;
+	width:450px;
+}
+
+.input_info_user{
+	display :inline-block;
+	width : 200px;
+	text-align : left;
+	margin-left:10px;
+}
+.label_info_user{
+	display :inline-block;
+	width : 200px;
+	text-align : right;
+}
+
+#zone_projet{
+	
+	display:inline-block;
+	height:30%;
+	width: 100%;
+}
+
+.projet{
+	display:inline-block;
+	margin-left:5%;
+	width: 25%;
+    height: 100%;
+}
+
+#zone_competence{
+	display:inline-block;
+	height:30%;
+	width: 100%;
+}
+
+.competence{
+	background-color: #feb415;
+	display:inline-block;
+	margin-left:4%;
+	width: 20%;
+    height: 100%;
+
+}
+
+.info_projet{
+	background-color: #48b9c7;
+	height:33%;
+	width:100%;
+	border:1px solid black;
+	padding:10px;
+}
+
+.img_projet{
+text-align:right;
+}
+
+#HF
+{
+a:link color:#F6F6F6;   /* unvisited link */
+a:visited color:#000000; /* visited link */
+a:hover color:#6F6F6F;   /* mouse over link */
+a:hovertext-decoration:none;
+}
+
+Body 
+{
+Background-color: #e2E2E2;
+}
+
+.static_separateur {
+    color: white;
+    height: 1px;
+    text-align: center;
+    width: 85%;
+}

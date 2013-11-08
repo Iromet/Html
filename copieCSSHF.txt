@@ -1,0 +1,234 @@
+#HF
+{
+a:link color:#F6F6F6;   /* unvisited link */
+a:visited color:#000000; /* visited link */
+a:hover color:#6F6F6F;   /* mouse over link */
+a:hovertext-decoration:none;
+}
+
+#logo
+{
+position:relative;
+top:40px;
+right:1250px;
+}
+
+#LineHead1
+{
+position:relative;
+top:120px;
+right:400px;
+}
+
+#LineHead2
+{
+position:relative;
+top:160px;
+right:400px;
+}
+
+
+#Accueil
+{
+position:fixed;
+top:100px;
+right:1100px;
+}
+
+#Projets
+{
+position:fixed;
+top:100px;
+right:1000px;
+}
+
+#Competences
+{
+position:fixed;
+top:100px;
+right:860px;
+}
+
+#Profil
+{
+position:fixed;
+top:60px;
+right:470px;
+}
+
+#Deconexion
+{
+position:fixed;
+top:100px;
+right:400px;
+}
+
+#Recherche
+{
+position:fixed;
+top:137px;
+right:400px;
+}
+
+#ZSearch
+{
+position:fixed;
+top:137px;
+right:500px;
+}
+
+#LineFoot1
+{
+position:fixed;
+top:820px;
+right:400px;
+}
+
+#LineFoot2
+{
+position:fixed;
+top:850px;
+right:400px;
+}
+
+#Contact
+{
+position:fixed;
+top:835px;
+right:1250px;
+}
+
+#CDU
+{
+position:fixed;
+top:835px;
+right:1100px;
+}
+
+#Site
+{
+position:fixed;
+top:835px;
+right:1020px;
+}
+
+Body 
+{
+Background-color: #e2E2E2;
+}
+
+
+
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title> a</title>
+	<link rel="stylesheet" type="text/css" href="css_Accueil.css">	
+</head>
+<body>	
+	<center>
+		<span id="HF">
+			<span id="contenu_header">
+				<!-- Déclaration des boutons et lien du Header-->
+				
+				<span id="logo">
+					<img src="img/logo.png" />
+				</span>
+				
+				<span id="Accueil">
+					<a href="http://www.w3schools.com/css/" name="Profil"> Accueil</a>
+				</span>
+				
+				<span id="Projets">
+					<a href="http://www.w3schools.com/css/" name="Profil"> Projets</a>
+				</span>
+				
+				<span id="Competences">
+					<a href="http://www.w3schools.com/css/" name="Profil"> Competences</a>
+				</span>
+
+				
+				<span id="Profil">
+					<a href="http://www.w3schools.com/css/" name="Profil"> Profil</a>
+				</span>
+				
+				<span id="Deconexion">
+					<a href="http://www.w3schools.com/css/" name="lien_acceuil" ><input type="button" name="lien1" value="Deconnexion" ></a>
+				</span>
+				
+				
+				<!-- Définition des séparateurs du Header -->
+			
+				<span id="LineHead1">
+					<hr size="1" width="933"/>
+				</span>
+				
+				<span id="ZSearch"> 
+					<input type="text" name="pseudo" /> 
+				</span>	
+				
+				<span id="Recherche">
+					<a href="http://www.w3schools.com/css/" name="lien_acceuil" ><input type="button" name="lien1" value="Recherche" ></a>
+				</span>	
+				
+				<span id="LineHead2">
+					<hr size="1" width="933"/>
+				</span>
+			
+			</span>
+			<span id="contenu_footer">
+				<!-- Définition des séparateurs du footer -->
+				<span id="LineFoot1">
+					<hr size="1" width="933"/>
+				</span>
+
+				<!-- Déclaration des liens du Footer -->
+				<span id="Contact">
+					<a href="http://www.w3schools.com/css/" name="Profil"> Contact</a>
+				</span>
+				
+				<span id="CDU">
+					<a href="http://www.w3schools.com/css/" name="Profil"> Condition d'utilisation</a>
+				</span>
+				
+				<span id="Site">
+					<a href="http://www.w3schools.com/css/" name="Profil"> Site IMIE</a>
+				</span>
+				
+				<span id="LineFoot2">
+					<hr size="1" width="933"/>
+				</span>
+			</span>
+		</span>
+	</center>
+
+	<!-- Ajouter deux images: Logo et loupe pour la recherche -->
+	
+	<!--Définition des boutons de la page d'accueil-->
+
+</body>
+</html> 
+
+
+
+
+#HF
+{
+a:link color:#F6F6F6;   /* unvisited link */
+a:visited color:#000000; /* visited link */
+a:hover color:#6F6F6F;   /* mouse over link */
+a:hovertext-decoration:none;
+display:inline-block;
+}
+
+#contenu_header
+{
+display:inline-block;
+}
+
+Body 
+{
+Background-color: #e2E2E2;
+}
